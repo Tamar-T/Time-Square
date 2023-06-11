@@ -1,0 +1,39 @@
+﻿
+body 
+{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('פתיחה.png');
+    z-index: 5;
+    overflow:hidden;
+}
+
+#B_rulls
+{  
+    margin-top:30%;
+    margin-left:3%;
+
+}
+
+#B_video
+{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#B_game
+{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#play_video
+{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-left: 9%;
+    z-index: 10;
+}

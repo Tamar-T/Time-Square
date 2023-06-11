@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="balls.css" rel="stylesheet" />
+    <script src="balls.js"></script>
+</head>
+<body>
+    <audio id="music" autoplay>
+        <source src="../%d7%9e%d7%a0%d7%92%d7%99%d7%a0%d7%95%d7%aa/%d7%a9%d7%99%d7%a8%20%d7%9e%d7%a7%d7%95%d7%a6%d7%a8.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="music1" loop>
+        <source src="../../%d7%9e%d7%a0%d7%92%d7%99%d7%a0%d7%95%d7%aa/%d7%a7%d7%9c.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="music2" loop>
+        <source src="../../%d7%9e%d7%a0%d7%92%d7%99%d7%a0%d7%95%d7%aa/%d7%91%d7%99%d7%a0%d7%95%d7%a0%d7%99.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="music3" loop>
+        <source src="../../%d7%9e%d7%a0%d7%92%d7%99%d7%a0%d7%95%d7%aa/%d7%a7%d7%a9%d7%94.mp3" type="audio/mpeg" />
+    </audio>
+    <div class="b">
+        <div id="B_home">
+            <a href="../home/home.html"><img src="אייקונים תכלת/בית.png" /></a>
+        </div>
+        <br />
+        <div id="B_rulls">
+            <a href="../home/rulls.html"><img src="אייקונים תכלת/הוראות.png" /></a> 
+        </div><br />
+        <div id="B_game" onclick="newGame()"><img src="אייקונים תכלת/ריסטרט.png" />
+        </div>
+    </div>
+
+	<div id="tableDiv"></div>
+
+	<div id="div1" >
+		<div class="a" onclick="Levels(1)" style="background-color:#9acc1d; margin-top:25vh">קל</div>
+		<div class="a" onclick="Levels(2)" style="background-color:darkcyan">בינוני</div>
+		<div class="a" onclick="Levels(3)" style="background-color:deeppink">קשה</div>
+	</div>
+    <h1 id="sorces">ניקוד</h1>
+        <div id="mark">
+            <label></label>
+        </div>
+    
+
+    <div id="myModal" class="modal">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <img src="game over new.png" />
+            </div>
+
+            <div class="modal-footer">
+                <a href="../home/home.html"><img src="אייקונים תכלת/בית.png" /></a>
+                <div id="B_game" onclick="newGame()"><img src="אייקונים תכלת/ריסטרט.png" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>	
